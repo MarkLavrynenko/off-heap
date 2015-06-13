@@ -16,7 +16,7 @@ public class AdvancedTable implements ITable {
     private long _address = -1;
     private DirectMemoryTrade flyweight;
 
-    private static class DirectMemoryTrade {
+    public static class DirectMemoryTrade {
         private static final long venueOffset        = 0;
         private static final long productPriceOffset = 8;
         private static final long sideOffset         = 16;
